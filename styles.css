@@ -1,0 +1,89 @@
+table td, table th {
+  border: 3px solid green;
+  padding: 5px 10px;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1, h2 {
+  text-align: center;
+  color: green;
+}
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+#main-title {
+  width: 10wh;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+.length {
+  text-align: right;
+}
+
+table {
+  padding: 20px;
+  margin: auto;
+  border: 3px solid green;
+  border-collapse: collapse;
+}
+table th {
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  background-color: slategray;
+}
+table td {
+  font-weight: lighter;
+  background-color: whitesmoke;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
